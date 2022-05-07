@@ -1,0 +1,19 @@
+#Dialog {
+    background-color: #333333;
+}
+#admin, #ouvrier {
+    background-color: #C0C000;
+    color: #3B6A7A;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+#pic {
+    background-image: url("images/pc.jpg");
+    background-color: #333333;
+}
+#text1 {
+    font-size: 25px;
+    color: #79b5e6;
+}

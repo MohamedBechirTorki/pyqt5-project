@@ -1,0 +1,23 @@
+QDialog {
+    background-color: #333333;
+}
+#label {
+    font: 75 20pt "Monospace";
+    color: #79b5e6;
+}
+#msg {
+    color: rgb(255, 94, 0);
+}
+#username, #password {
+    background: transparent;
+    font-size: 20px;
+    padding : 10px 20px;
+    border: 4px solid transparent;
+    border-bottom-color: #355168;
+    color: #708ca3;
+}
+#connecter {
+    background: #708ca3;
+    color: white;
+    font: 75 18pt "Monospace";
+}
