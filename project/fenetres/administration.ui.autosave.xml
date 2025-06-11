@@ -136,9 +136,9 @@
       <widget class="QLabel" name="label_2">
        <property name="geometry">
         <rect>
-         <x>40</x>
+         <x>20</x>
          <y>70</y>
-         <width>151</width>
+         <width>171</width>
          <height>31</height>
         </rect>
        </property>
@@ -188,9 +188,9 @@
       <widget class="QLabel" name="label">
        <property name="geometry">
         <rect>
-         <x>60</x>
+         <x>40</x>
          <y>90</y>
-         <width>111</width>
+         <width>131</width>
          <height>31</height>
         </rect>
        </property>
@@ -257,7 +257,7 @@
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>492</width>
+        <width>495</width>
         <height>600</height>
        </rect>
       </property>
@@ -578,203 +578,7 @@
      </property>
     </widget>
    </widget>
-   <widget class="QWidget" name="infos_page">
-    <widget class="QWidget" name="verticalLayoutWidget_3">
-     <property name="geometry">
-      <rect>
-       <x>360</x>
-       <y>-10</y>
-       <width>201</width>
-       <height>291</height>
-      </rect>
-     </property>
-     <layout class="QVBoxLayout" name="verticalLayout">
-      <item>
-       <widget class="QCheckBox" name="data">
-        <property name="text">
-         <string>Data scientist</string>
-        </property>
-        <property name="checked">
-         <bool>true</bool>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QCheckBox" name="fontend">
-        <property name="text">
-         <string>Fontend developer</string>
-        </property>
-        <property name="checked">
-         <bool>true</bool>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QCheckBox" name="backend">
-        <property name="text">
-         <string>Backend developer</string>
-        </property>
-        <property name="checked">
-         <bool>true</bool>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QCheckBox" name="graphic">
-        <property name="text">
-         <string>Graphique designer</string>
-        </property>
-        <property name="checked">
-         <bool>true</bool>
-        </property>
-       </widget>
-      </item>
-     </layout>
-    </widget>
-    <widget class="QWidget" name="verticalLayoutWidget_4">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>10</y>
-       <width>241</width>
-       <height>151</height>
-      </rect>
-     </property>
-     <layout class="QVBoxLayout" name="verticalLayout_2">
-      <item>
-       <widget class="QLabel" name="label_14">
-        <property name="styleSheet">
-         <string notr="true">font-size: 18px;</string>
-        </property>
-        <property name="text">
-         <string>Le nombre total</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="label_13">
-        <property name="styleSheet">
-         <string notr="true">font-size: 18px;</string>
-        </property>
-        <property name="text">
-         <string>La somme de salaires </string>
-        </property>
-       </widget>
-      </item>
-     </layout>
-    </widget>
-    <widget class="QWidget" name="verticalLayoutWidget_5">
-     <property name="geometry">
-      <rect>
-       <x>250</x>
-       <y>10</y>
-       <width>101</width>
-       <height>151</height>
-      </rect>
-     </property>
-     <layout class="QVBoxLayout" name="verticalLayout_3">
-      <item>
-       <widget class="QLabel" name="nb">
-        <property name="styleSheet">
-         <string notr="true">font-size: 18px;</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="somme">
-        <property name="styleSheet">
-         <string notr="true">font-size: 18px;</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-       </widget>
-      </item>
-     </layout>
-    </widget>
-    <widget class="QWidget" name="widget" native="true">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>320</y>
-       <width>360</width>
-       <height>270</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-image: url(&quot;images/courbe.jpg&quot;);</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_15">
-     <property name="geometry">
-      <rect>
-       <x>410</x>
-       <y>360</y>
-       <width>151</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">font-size: 14px;
-color: white;</string>
-     </property>
-     <property name="text">
-      <string>Argent gagné</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_16">
-     <property name="geometry">
-      <rect>
-       <x>410</x>
-       <y>410</y>
-       <width>151</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">font-size: 14px;
-color: white;</string>
-     </property>
-     <property name="text">
-      <string>frais et salaires</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_17">
-     <property name="geometry">
-      <rect>
-       <x>380</x>
-       <y>370</y>
-       <width>20</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: #5ce1e6;</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_18">
-     <property name="geometry">
-      <rect>
-       <x>380</x>
-       <y>420</y>
-       <width>20</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: #ff1616;</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
-   </widget>
+   <widget class="QWidget" name="infos_page"/>
   </widget>
  </widget>
  <resources/>

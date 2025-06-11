@@ -12,17 +12,31 @@ QDialog {
     border: 8px solid transparent;
     border-right-color: #C0C103;
 }
-#ouvriers, #add_ouv, #discuter {
+#ouvriers, #add_ouv, #infos {
     text-align: center;
     border: none;
     margin: 0;
 }
-#ouvriers QLabel, #add_ouv QLabel, #discuter QLabel {
+#profile, #missions {
+    text-align: center;
+    border: none;
+    margin: 0;
+}
+#ouvriers QLabel, #add_ouv QLabel, #infos QLabel {
     font-size: 15px;
     color: rgb(234, 240, 252);
     text-align: center;
 }
-#ouvriers:hover, #add_ouv:hover, #discuter:hover {
+#profile QLabel, #missions QLabel {
+    font-size: 15px;
+    color: rgb(234, 240, 252);
+    text-align: center;
+}
+#ouvriers:hover, #add_ouv:hover, #infos:hover {
+    border: 8px solid transparent;
+    border-right-color: #C0C103;
+}
+#profile:hover, #missions:hover {
     border: 8px solid transparent;
     border-right-color: #C0C103;
 }
@@ -33,7 +47,7 @@ QDialog {
     background-image: url("images/add_ouv.png");
 }
 #chat_icon {
-    background-image: url("images/chat.png");
+    background-image: url("images/infos.png");
 }
 #space1, #space2, #space3 {
     height: 20px;
@@ -68,4 +82,114 @@ QLineEdit {
     font-weight: 600;
     color: #6b7f8a;
 
+}
+QComboBox {
+    padding: 10px 20px;
+    font-size: 15px;
+    color: white;
+    background-color: #333333;
+    border: 3px solid rgb(177, 158, 158);
+}
+QGroupBox {
+    background-color: red;
+}
+
+
+/* -------------------------------- */
+
+QScrollBar:vertical {
+    border: none;
+    background: rgb(45, 45, 68);
+    width: 14px;
+    margin: 15px 0 15px 0;
+    border-radius: 0px;
+}
+
+/*  HANDLE BAR VERTICAL */
+QScrollBar::handle:vertical {
+    background-color: rgb(80, 80, 122);
+    min-height: 30px;
+    border-radius: 7px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background-color: #C0C103;
+}
+
+/* BTN TOP - SCROLLBAR */
+QScrollBar::sub-line:vertical {
+    border: none;
+    background-color: rgb(59, 59, 90);
+    height: 15px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:vertical:hover {
+    background-color: #C0C103;
+    color: #C0C103;
+}
+
+QScrollBar::sub-line:vertical:pressed {
+    background-color: #265e7c;
+}
+
+/* BTN BOTTOM - SCROLLBAR */
+QScrollBar::add-line:vertical {
+    border: none;
+    background-color: rgb(59, 59, 90);
+    height: 15px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::add-line:vertical:hover {
+    background-color: #C0C103;
+}
+
+QScrollBar::add-line:vertical:pressed {
+    background-color: #265e7c;
+}
+
+/* RESET ARROW */
+QScrollBar::up-arrow:vertical,
+QScrollBar::down-arrow:vertical {
+    background: none;
+}
+
+QScrollBar::add-page:vertical,
+QScrollBar::sub-page:vertical {
+    background: none;
+}
+
+/* -------------------------------- */
+#vbox {
+    background-color: red;
+}
+#spec {
+    color: white;
+    font-size: 10px;
+}
+QLabel {
+    background-repeat: no-repeat;
+}
+QPushButton {
+    color: white;
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+QCheckBox {
+    color: white;
+    font-size: 14px;
+}
+QCheckBox::indicator {
+    border-radius: 5px;
+}
+QCheckBox::indicator:checked {
+    background-color: rgb(23, 104, 196);
 }
